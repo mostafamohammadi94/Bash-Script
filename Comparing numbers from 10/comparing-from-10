@@ -1,8 +1,8 @@
 #!/bin/bash
 #This programs compares any number from 10 
 
-#Read user input and write it on var1 
-read -p "enter a number: " var1
+#Reads user input and write it on var1 
+read -p "Enter a number: " var1
 
 #Start if - else Loops 
 if [ $var1 -eq 10 ]
@@ -10,9 +10,9 @@ then
         echo "This number is even"
 elif [ $var1 -lt 10 ]
 then
-        echo "this number is less than"
+        echo "This number is less than 10"
 else
-        echo "this number is more than"
+        echo "This number is more than 10"
 fi
 
 echo "Good lock!"
