@@ -15,6 +15,6 @@ else
         echo "this number is more than"
 fi
 
-echo "Good lock!'
+echo "Good lock!"
 
 #End of Scripts
